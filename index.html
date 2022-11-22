@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .circle_wrap {
+            width: 400px;
+            margin: 300px auto;
+        }
+
+        .circle_wrap svg .draw {
+            stroke-dasharray: 2122px;
+            stroke-dashoffset: 2122px;
+            transition: 1s;
+        }
+
+        .circle_wrap:hover svg .draw {
+            stroke-dashoffset: 0px;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="circle_wrap">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            x="0px" y="0px" viewBox="0 0 700 700" style="enable-background:new 0 0 700 700;" xml:space="preserve">
+            <path class="draw" style="fill:none;stroke:#9E1F63;stroke-width:15;stroke-miterlimit:10;"
+                d="M351.35,13.27
+	        c186.52,0,337.72,151.2,337.72,337.72s-151.2,337.72-337.72,337.72S13.63,537.51,13.63,350.99S164.83,13.27,351.35,13.27" />
+        </svg>
+
+    </div>
+
+    
+
+</html>
